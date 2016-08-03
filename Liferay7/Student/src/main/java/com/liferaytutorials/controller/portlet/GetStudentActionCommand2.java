@@ -13,11 +13,11 @@ import com.liferay.portal.kernel.util.ParamUtil;
 	    immediate = true,
 		property = {
 		    	"javax.portlet.name=" + com.liferaytutorials.portlet.constant.StudentPortletKeys.PORTLET_NAME,
-		    	"mvc.command.name=getStudent"
+		    	"mvc.command.name=getStudentURL2"
 		},
 	    service = MVCActionCommand.class
 	)
-public class GetStudentActionCommand extends BaseMVCActionCommand {
+public class GetStudentActionCommand2 extends BaseMVCActionCommand {
 
 	@Override
 	protected void doProcessAction(ActionRequest actionRequest, ActionResponse actionResponse) throws Exception {
@@ -35,7 +35,7 @@ public class GetStudentActionCommand extends BaseMVCActionCommand {
 		actionRequest.setAttribute("student",
 				"Hi this Student with id " + studentId + " has been loaded from the Database");
 		actionRequest.setAttribute("comingFrom",
-				com.liferaytutorials.controller.portlet.GetStudentActionCommand.class.getName());
+				com.liferaytutorials.controller.portlet.GetStudentActionCommand2.class.getName());
 
 	}
 
