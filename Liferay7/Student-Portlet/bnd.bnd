@@ -1,0 +1,9 @@
+Bundle-SymbolicName: student.portlet
+Bundle-Version: 1.0.0
+Import-Package:\
+	org.osgi.framework;version="[1.7,2)",\
+	*,
+	com.liferaytutorials.*
+
+Package: \
+	com.liferaytutorials.*

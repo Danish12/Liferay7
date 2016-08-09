@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferaytutorials.slayer.model.Student">
+		<field name="uuid" type="String" />
+		<field name="studentId" type="long" />
+		<field name="name" type="String" />
+		<field name="sollNumber" type="int" />
+		<field name="entryDate" type="Date" />
+	</model>
+</model-hints>

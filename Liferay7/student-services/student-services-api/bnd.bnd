@@ -1,0 +1,7 @@
+Bundle-SymbolicName: student.services-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferaytutorials.slayer.exception,\
+	com.liferaytutorials.slayer.model,\
+	com.liferaytutorials.slayer.service,\
+	com.liferaytutorials.slayer.service.persistence
